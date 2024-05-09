@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\Screenshot 2024-05-08 091509_20240509031316.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-05-08 091509_20240509031316.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509032550.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509032550.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509031659.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509031659.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509133636.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509133636.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031005.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031057.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031057.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031058.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031058.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BisleriumPvtLtdBackendSample1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BisleriumPvtLtdBackendSample1.props",
+      "PackagePath": "build\\BisleriumPvtLtdBackendSample1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BisleriumPvtLtdBackendSample1.props",
+      "PackagePath": "buildMultiTargeting\\BisleriumPvtLtdBackendSample1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BisleriumPvtLtdBackendSample1.props",
+      "PackagePath": "buildTransitive\\BisleriumPvtLtdBackendSample1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

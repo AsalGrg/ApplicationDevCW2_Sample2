@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BisleriumPvtLtdBackendSample1.props" />
+</Project>
