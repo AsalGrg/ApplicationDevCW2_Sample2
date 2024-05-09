@@ -8,6 +8,9 @@ import { useNavigate, useParams } from "react-router";
 import { update_blog_reaction } from "../../services/updateBlogReaction";
 import { delete_blog } from "../../services/deleteBlog";
 import formatDate from "../../formatDate";
+import { FaEdit } from "react-icons/fa";
+import { MdDelete } from "react-icons/md";
+
 
 const BlogIntroduction = ({ blogDescription }) => {
   const authorDetails = blogDescription.AuthorDetails;
@@ -125,10 +128,10 @@ const BlogIntroduction = ({ blogDescription }) => {
           <div className="d-flex gap-2">
           <Button
           onClick={()=>navigate(`/blog/edit/${blogDescription.Id}`)}
-          >Edit</Button>
+          ><FaEdit/></Button>
           <Button color="red"
           onClick={deleteBlog}
-          >Delete</Button>
+          ><MdDelete/></Button>
         </div>
         )}
         

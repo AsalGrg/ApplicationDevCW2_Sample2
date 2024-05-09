@@ -4,13 +4,15 @@ import { AiFillDashboard } from "react-icons/ai";
 import { IoIosAddCircle } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
 import { useNavigate } from "react-router";
+import { IoLogOut } from "react-icons/io5";
+
 
 const Sidebar = () => {
 
   const navigate = useNavigate();
 
   return (
-    <section className="py-3 px-3 w-100 d-flex flex-column gap-5">
+    <section className="py-3 px-3 w-100 d-flex flex-column gap-5 ">
       <Text size="20px" fw={600}>
         Bislerium Blogs
       </Text>
@@ -35,6 +37,15 @@ const Sidebar = () => {
         >
           <CgProfile />
           <Text>Profile</Text>
+        </div>
+
+        <div className="d-flex gap-2 align-items-center cursor-pointer text-danger"
+        onClick={()=> {
+          localStorage.removeItem('token')
+          navigate('/login')}}
+        >
+          <IoLogOut/>
+          <Text>Logout</Text>
         </div>
       </div>
     </section>

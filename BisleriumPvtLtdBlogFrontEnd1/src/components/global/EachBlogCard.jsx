@@ -10,14 +10,25 @@ const EachBlogCard = ({ blog }) => {
 
   return (
     <section
-      className="rounded ps-2 row justify-content-between cursor-pointer"
+      className="rounded ps-2 row justify-content-between cursor-pointer gap-2"
       onClick={() => navigate(`/blog/${blog.Id}`)}
       style={{
-        minHeight: "130px",
-        maxHeight: "180px",
+        minHeight: "300px",
       }}
     >
-      <div className="col-8 d-flex flex-column justify-content-center align-items-start gap-2">
+      <div className="col-12">
+        <img
+          src={blog.CoverImage}
+          className="w-100 img-fluid"
+          style={{
+            objectFit: "cover",
+            height: "180px",
+          }}
+        />
+      </div>
+
+
+      <div className="col-12 d-flex flex-column justify-content-center align-items-start gap-2">
         <div className="d-flex align-items-center gap-2">
           <Avatar size={"md"} />
           <Text size="sm" fw={"500"}>
@@ -38,16 +49,7 @@ const EachBlogCard = ({ blog }) => {
           </Text>
         </div>
       </div>
-      <div className="col-4">
-        <img
-          src={blog.CoverImage}
-          className="w-100 img-fluid"
-          style={{
-            objectFit: "cover",
-            height: "180px",
-          }}
-        />
-      </div>
+      
     </section>
   );
 };

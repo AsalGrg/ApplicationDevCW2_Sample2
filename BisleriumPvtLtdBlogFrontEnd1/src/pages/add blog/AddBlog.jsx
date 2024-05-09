@@ -55,14 +55,14 @@ const AddBlog = () => {
   return (
     <div className="d-flex justify-content-center w-100">
       <div
-        className="w-50 mt-5 py-5 d-flex flex-column gap-4"
+        className="w-50 mt-2 py-5 d-flex flex-column gap-4"
         style={{
           minHeight: "100vh",
         }}
       >
-        <Text size="25px" fw={700} className="text-center">
+        <p className="text-center display-6">
           Add Blog
-        </Text>
+        </p>
 
         <TextInput placeholder="Blog Title" label="Title"
         value={title}
@@ -100,13 +100,13 @@ const AddBlog = () => {
               }}
             >
               <div
-                className="rounded border bg-primary py-5 text-center"
+                className="rounded border bg-secondary py-5 text-center"
                 style={{
                   height: "130px",
                   width: "150px",
                 }}
               >
-                Select Cover Image
+                Cover Image
               </div>
 
               <input
@@ -130,7 +130,7 @@ const AddBlog = () => {
         <div className="w-100 d-flex justify-content-end"
         onClick={addBlog}
         >
-            <Button>Save</Button>
+            <Button color="teal">Save</Button>
         </div>
       </div>
     </div>

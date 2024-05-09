@@ -8,19 +8,17 @@ const FilteredBlogs = () => {
   const [blogs, setblogs] = useState([]);
 
   useEffect(() => {
-    
-    async function getBlogs(){
-
-      const res= await get_all_blogs(selectedFilter);
+    async function getBlogs() {
+      const res = await get_all_blogs(selectedFilter);
       const data = await res.json();
 
-      if(res.ok){
+      if (res.ok) {
         setblogs(data);
       }
     }
     getBlogs();
-  }, [selectedFilter])
-  
+  }, [selectedFilter]);
+
   return (
     <div className="d-flex flex-column gap-4">
       <div className="d-flex justify-content-start">
@@ -34,9 +32,11 @@ const FilteredBlogs = () => {
         />
       </div>
 
-      <div className="w-75 d-flex flex-column gap-5">
-        {blogs.map(each=>(
-          <EachBlogCard blog={each}/>
+      <div className="row gap-5">
+        {blogs.map((each) => (
+          <div className="col-3">
+            <EachBlogCard blog={each} />
+          </div>
         ))}
       </div>
     </div>

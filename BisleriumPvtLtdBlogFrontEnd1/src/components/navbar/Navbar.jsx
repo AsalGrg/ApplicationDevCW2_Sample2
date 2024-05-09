@@ -37,12 +37,12 @@ const Navbar = () => {
       }}
     >
       <div className="w-100 h-100 row align-items-center justify-content-between px-5">
-        <div className="col-3 d-flex align-items-center gap-3">
+        <div className="col-2 d-flex align-items-center gap-3">
           <p className="btn btn-link mt-3 text-dark"
-          onClick={()=> navigate('/blog/new')}
+          onClick={()=> navigate('/blog/new/new')}
           >Write</p>
         </div>
-        <div className="col-3 text-center">
+        <div className="col-2 text-center">
           <h1 className="lead fw-bold">Bislerium Blogs</h1>
         </div>
         <div className="col-3 d-flex align-items-center gap-3">
@@ -51,7 +51,7 @@ const Navbar = () => {
               <p className="btn btn-link mt-3 text-dark"
               onClick={()=> navigate('/login')}
               >Log in</p>
-              <Button size="sm" radius={"md"} className="bg-success mt-3"
+              <Button size="sm" radius={"md"} className="bg-info mt-3"
               onClick={()=> navigate('/register')}
               >
                 Get started

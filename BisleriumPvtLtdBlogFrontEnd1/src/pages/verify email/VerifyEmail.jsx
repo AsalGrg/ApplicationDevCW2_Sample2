@@ -39,7 +39,7 @@ const VerifyEmail = () => {
   
     return (
       <div
-        className="d-flex justify-content-center align-items-center"
+        className="d-flex justify-content-center align-items-center text-secondary"
         style={{
           minHeight: "600px",
         }}

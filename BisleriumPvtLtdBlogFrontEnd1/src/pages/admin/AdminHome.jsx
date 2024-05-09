@@ -35,28 +35,25 @@ const AdminHome = () => {
 
   console.log(selectedDateCalendar);
   return (
-    <div>
-      <Text size="20px" fw={700}>
+    <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
+      <Text size="20px" style={{ fontWeight: 700, marginBottom: "20px" }}>
         Dashboard
       </Text>
 
-      <div className="w-25 mt-4">
+      <div style={{ width: "25%", marginTop: "20px" }}>
         {selectedDate !== "Select Date" ? (
-          // Render Select component if selectedDate is defined
           <Select
             label="Pick a date"
-            className="mt-4"
             size="sm"
             placeholder="Pick a date"
             value={selectedDate}
-            data={["All Time", "Select Date"]} // Include selected dates in the data prop
+            data={["All Time", "Select Date"]}
             onChange={(value) => {
               setSelectedDate(value);
             }}
           />
         ) : (
-          // Render MonthPicker component if selectedDate is not defined
-          <div className="d-flex gap-2 align-items-center">
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <input
               type="date"
               placeholder="Pick date"
@@ -65,72 +62,90 @@ const AdminHome = () => {
                 setselectedDateCalendar(date.target.value);
               }}
             />
-            <Button
-              size="xs"
-              className=""
-              onClick={() => setSelectedDate("All Time")}
-            >
+            <Button size="xs" onClick={() => setSelectedDate("All Time")}>
               <MdCancel />
             </Button>
           </div>
         )}
       </div>
 
-      <div className="mt-4 d-flex gap-5">
+      <div style={{ marginTop: "20px", display: "flex", gap: "20px" }}>
         <div
-          className="col-3 border border-2 rounded d-flex justify-content-between align-items-center px-4"
           style={{
-            height: "80px",
+            border: "2px solid #000",
+            borderRadius: "5px",
+            padding: "10px",
             width: "200px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
           }}
         >
-          <Text fw={600}>Posts</Text>
-          <Text fw={700}>{analysisDetails.TotalPosts}</Text>
+          <Text style={{ fontWeight: 600 }}>Posts</Text>
+          <Text style={{ fontWeight: 700 }}>{analysisDetails.TotalPosts}</Text>
         </div>
 
         <div
-          className="col-3 border border-2 rounded d-flex justify-content-between align-items-center px-4"
           style={{
-            height: "80px",
+            border: "2px solid #000",
+            borderRadius: "5px",
+            padding: "10px",
             width: "200px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
           }}
         >
-          <Text fw={600}>Upvotes</Text>
-          <Text fw={700}>{analysisDetails.TotalUpvotes}</Text>
+          <Text style={{ fontWeight: 600 }}>Upvotes</Text>
+          <Text style={{ fontWeight: 700 }}>
+            {analysisDetails.TotalUpvotes}
+          </Text>
         </div>
 
         <div
-          className="col-3 border border-2 rounded d-flex justify-content-between align-items-center px-4"
           style={{
-            height: "80px",
+            border: "2px solid #000",
+            borderRadius: "5px",
+            padding: "10px",
             width: "200px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
           }}
         >
-          <Text fw={600}>Downvotes</Text>
-          <Text fw={700}>{analysisDetails.TotalDownvotes}</Text>
+          <Text style={{ fontWeight: 600 }}>Downvotes</Text>
+          <Text style={{ fontWeight: 700 }}>
+            {analysisDetails.TotalDownvotes}
+          </Text>
         </div>
 
         <div
-          className="col-3 border border-2 rounded d-flex justify-content-between align-items-center px-4"
           style={{
-            height: "80px",
+            border: "2px solid #000",
+            borderRadius: "5px",
+            padding: "10px",
             width: "200px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
           }}
         >
-          <Text fw={600}>Comments</Text>
-          <Text fw={700}>{analysisDetails.TotalComments}</Text>
+          <Text style={{ fontWeight: 600 }}>Comments</Text>
+          <Text style={{ fontWeight: 700 }}>
+            {analysisDetails.TotalComments}
+          </Text>
         </div>
       </div>
 
-      <div className="mt-5">
-        <Text fw={700} size="md">
-          Top blogs
-        </Text>
+      <div style={{ marginTop: "20px" }}>
+        <Text style={{ fontWeight: 700, fontSize: "18px" }}>Top blogs</Text>
 
-        <div className="d-flex flex-column gap-5">
-        {analysisDetails.TopBlogs.map((each) => (
-          <EachBlogCard blog={each} />
-        ))}
+        <div style={{ marginTop: "10px" }} className="row">
+          {analysisDetails.TopBlogs.map((each) => (
+            <div className="col-5">
+              <EachBlogCard key={each.id} blog={each} />
+            </div>
+          ))}
         </div>
       </div>
     </div>

@@ -11,7 +11,9 @@ const AdminLayout = () => {
     }}
     
     >
-        <div className='col-2 border border-right border-2'>
+        <div className='col-2 border border-right border-2 bg-secondary text-light fw-bolder'
+        
+        >
             <Sidebar/>
         </div>
 

@@ -1,4 +1,4 @@
-import { Button, TextInput } from "@mantine/core";
+import { Button, Text, TextInput } from "@mantine/core";
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import register_user from "../../services/registerUser";
@@ -16,9 +16,8 @@ const Register = () => {
       username: username,
     });
 
-
     if (res.ok) {
-      console.log('here')
+      console.log("here");
       return navigate(`/verifyEmail?email=${email}&token=`);
     }
   }
@@ -30,13 +29,13 @@ const Register = () => {
       }}
     >
       <div
-        className="w-25"
+        className="w-25 px-4 shadow py-5 rounded-3"
         style={{
-          height: "300px",
+          minheight: "300px",
         }}
       >
         <div className="d-flex flex-column gap-3">
-          <h1 className="display-6 fw-bold text-center">Register</h1>
+          <h1 className="display-6 fw-bold text-center">Registration</h1>
 
           <TextInput
             label="Username"
@@ -57,6 +56,12 @@ const Register = () => {
             onChange={(e) => setpassword(e.target.value)}
           />
 
+          <Text
+            className="btn btn-link"
+            onClick={() => navigate("/login")}
+          >
+            Login?
+          </Text>
           <Button onClick={handleRegisterUser}>Register</Button>
         </div>
       </div>
