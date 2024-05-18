@@ -10,7 +10,7 @@ import { FaEdit } from "react-icons/fa";
 import { useParams } from "react-router";
 import { edit_comment } from "../../services/edit_comment";
 
-const EachComment = ({ commentDescription }) => {
+const EachComment = ({ commentDescription, deleteComment }) => {
 
   const {id}= useParams();
 
@@ -170,7 +170,9 @@ const EachComment = ({ commentDescription }) => {
               </Button>
 
               <Button variant="light" c={"red"}>
-                <MdDeleteForever style={{ fontSize: "20px" }} />
+                <MdDeleteForever style={{ fontSize: "20px" }} 
+                onClick={()=> deleteComment(commentDetails.CommentId)}
+                />
               </Button>
             </div>
           ) : null}
