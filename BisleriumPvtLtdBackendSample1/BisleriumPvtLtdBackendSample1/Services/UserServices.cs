@@ -28,7 +28,24 @@ namespace BisleriumPvtLtdBackendSample1.Services
 
         public void UpdateLastNotificationCheckedTime()
         {
-            throw new NotImplementedException();
+            string userId = getCurrentUser();
+            NotificationCheckedTiming userTiming=  _dbContext.NotificationCheckedTimings.FirstOrDefault(each => each.UserId == userId);
+
+            if (userTiming !=null)
+            {
+                userTiming.LastCheckTime= DateTime.Now;
+                _dbContext.Update(userTiming);
+            }
+            else
+            {
+                _dbContext.Add(new NotificationCheckedTiming()
+                {
+                    LastCheckTime = DateTime.Now,
+                    UserId = userId,
+                });
+            }
+
+            _dbContext.SaveChanges();
         }
 
 
@@ -85,7 +102,7 @@ namespace BisleriumPvtLtdBackendSample1.Services
                     EachNotificationDetails eachNotification = ChangeDtoToEachNotification(comment.AddedDate, "Comment", comment.UserId, halfBody);
                     userCommentNotificationDetails.Add(eachNotification);
 
-                    if (eachNotification.isNew) newNotificationCount++;
+                    if (eachNotification.isNew == true) newNotificationCount += 1;
                 }
             }
 
@@ -118,7 +135,7 @@ namespace BisleriumPvtLtdBackendSample1.Services
 
                     EachNotificationDetails eachNotification = ChangeDtoToEachNotification(blogReaction.AddedDate, "Reaction", blogReaction.UserId, halfBody);
                     userBlogReactionNotificationDetails.Add(eachNotification);
-                    if (eachNotification.isNew) newNotificationCount++;
+                    if (eachNotification.isNew == true) newNotificationCount += 1;
                 }
             }
 
@@ -154,7 +171,7 @@ namespace BisleriumPvtLtdBackendSample1.Services
 
                     EachNotificationDetails eachNotification = ChangeDtoToEachNotification(commentReaction.AddedDate, "Reaction", commentReaction.UserId, halfBody);
                     userBlogReactionNotificationDetails.Add(eachNotification);
-                    if (eachNotification.isNew) newNotificationCount++;
+                    if (eachNotification.isNew==true) newNotificationCount+=1;
                 }
             }
             return new()
@@ -171,10 +188,13 @@ namespace BisleriumPvtLtdBackendSample1.Services
 
             if (notificationCheckedTiming != null)
             {
-                isNew = notificationCheckedTiming.LastCheckTime < AddedDate;
+                System.Diagnostics.Debug.WriteLine("----------------------------------------");
+                System.Diagnostics.Debug.WriteLine(notificationCheckedTiming.LastCheckTime);
+                System.Diagnostics.Debug.WriteLine(AddedDate);
+                isNew = notificationCheckedTiming.LastCheckTime.ToLocalTime() < AddedDate.ToLocalTime();
             }
-            
-            
+
+
             var user = _dbContext.Users.First(each => each.Id == userId);
 
             return new()

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hlklytk6l9Df20fuXEBKLzCJZ7TBuYlqMDj5vwoXLhE=",
+  "Hash": "WcwBN7QjbyoULW6WthyS4d/i+pdx+Qm7EXgzkKuW9Hk=",
   "Source": "BisleriumPvtLtdBackendSample1",
   "BasePath": "_content/BisleriumPvtLtdBackendSample1",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "BisleriumPvtLtdBackendSample1\\wwwroot",
       "Source": "BisleriumPvtLtdBackendSample1",
-      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
       "BasePath": "_content/BisleriumPvtLtdBackendSample1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\Screenshot 2024-05-08 091509_20240509031316.png",
+      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\Screenshot 2023-12-20 084822_20240510110904.png",
       "SourceId": "BisleriumPvtLtdBackendSample1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
       "BasePath": "_content/BisleriumPvtLtdBackendSample1",
-      "RelativePath": "images/Screenshot 2024-05-08 091509_20240509031316.png",
+      "RelativePath": "images/Screenshot 2023-12-20 084822_20240510110904.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Screenshot 2024-05-08 091509_20240509031316.png"
+      "OriginalItemSpec": "wwwroot\\images\\Screenshot 2023-12-20 084822_20240510110904.png"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509032550.jpg",
+      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\Screenshot 2024-05-07 111952_20240510093015.png",
       "SourceId": "BisleriumPvtLtdBackendSample1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
       "BasePath": "_content/BisleriumPvtLtdBackendSample1",
-      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509032550.jpg",
+      "RelativePath": "images/Screenshot 2024-05-07 111952_20240510093015.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,15 +52,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509032550.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Screenshot 2024-05-07 111952_20240510093015.png"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509031659.jpg",
+      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509182938.jpg",
       "SourceId": "BisleriumPvtLtdBackendSample1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
       "BasePath": "_content/BisleriumPvtLtdBackendSample1",
-      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509031659.jpg",
+      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509182938.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509031659.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509182938.jpg"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509133636.jpg",
+      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240510061425.jpg",
       "SourceId": "BisleriumPvtLtdBackendSample1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
       "BasePath": "_content/BisleriumPvtLtdBackendSample1",
-      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509133636.jpg",
+      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240510061425.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509133636.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240510061425.jpg"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031005.jpg",
+      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.05_0f038bcf_20240509183137.jpg",
       "SourceId": "BisleriumPvtLtdBackendSample1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
       "BasePath": "_content/BisleriumPvtLtdBackendSample1",
-      "RelativePath": "images/WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031005.jpg",
+      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.19.05_0f038bcf_20240509183137.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031005.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.19.05_0f038bcf_20240509183137.jpg"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031057.jpg",
+      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509163819.jpg",
       "SourceId": "BisleriumPvtLtdBackendSample1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
       "BasePath": "_content/BisleriumPvtLtdBackendSample1",
-      "RelativePath": "images/WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031057.jpg",
+      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509163819.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031057.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509163819.jpg"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031058.jpg",
+      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509182913.jpg",
       "SourceId": "BisleriumPvtLtdBackendSample1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
       "BasePath": "_content/BisleriumPvtLtdBackendSample1",
-      "RelativePath": "images/WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031058.jpg",
+      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509182913.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031058.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509182913.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240510051944.jpg",
+      "SourceId": "BisleriumPvtLtdBackendSample1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\wwwroot\\",
+      "BasePath": "_content/BisleriumPvtLtdBackendSample1",
+      "RelativePath": "images/WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240510051944.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240510051944.jpg"
     }
   ]
 }

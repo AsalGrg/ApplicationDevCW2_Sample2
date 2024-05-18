@@ -57,7 +57,7 @@ var app = builder.Build();
 
 // Enable CORS
 app.UseCors(options =>
-    options.WithOrigins("http://localhost:3006") // Specify the actual origin of your frontend
+    options.WithOrigins("http://localhost:3007") // Specify the actual origin of your frontend
            .AllowAnyMethod() // Specify the allowed HTTP methods as needed
            .AllowAnyHeader()
 );

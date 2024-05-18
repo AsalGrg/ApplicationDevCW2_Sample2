@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Screenshot 2024-05-08 091509_20240509031316.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Screenshot 2023-12-20 084822_20240510110904.png))">
       <SourceType>Package</SourceType>
       <SourceId>BisleriumPvtLtdBackendSample1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BisleriumPvtLtdBackendSample1</BasePath>
-      <RelativePath>images/Screenshot 2024-05-08 091509_20240509031316.png</RelativePath>
+      <RelativePath>images/Screenshot 2023-12-20 084822_20240510110904.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -14,14 +14,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Screenshot 2024-05-08 091509_20240509031316.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Screenshot 2023-12-20 084822_20240510110904.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509032550.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Screenshot 2024-05-07 111952_20240510093015.png))">
       <SourceType>Package</SourceType>
       <SourceId>BisleriumPvtLtdBackendSample1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BisleriumPvtLtdBackendSample1</BasePath>
-      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509032550.jpg</RelativePath>
+      <RelativePath>images/Screenshot 2024-05-07 111952_20240510093015.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30,14 +30,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509032550.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Screenshot 2024-05-07 111952_20240510093015.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509031659.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509182938.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BisleriumPvtLtdBackendSample1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BisleriumPvtLtdBackendSample1</BasePath>
-      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509031659.jpg</RelativePath>
+      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509182938.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -46,14 +46,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509031659.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240509182938.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509133636.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240510061425.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BisleriumPvtLtdBackendSample1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BisleriumPvtLtdBackendSample1</BasePath>
-      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509133636.jpg</RelativePath>
+      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240510061425.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,14 +62,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240509133636.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.19.04_5f19f8cf_20240510061425.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031005.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.19.05_0f038bcf_20240509183137.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BisleriumPvtLtdBackendSample1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BisleriumPvtLtdBackendSample1</BasePath>
-      <RelativePath>images/WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031005.jpg</RelativePath>
+      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.19.05_0f038bcf_20240509183137.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -78,14 +78,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031005.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.19.05_0f038bcf_20240509183137.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031057.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509163819.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BisleriumPvtLtdBackendSample1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BisleriumPvtLtdBackendSample1</BasePath>
-      <RelativePath>images/WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031057.jpg</RelativePath>
+      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509163819.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -94,14 +94,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031057.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509163819.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031058.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509182913.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BisleriumPvtLtdBackendSample1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BisleriumPvtLtdBackendSample1</BasePath>
-      <RelativePath>images/WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031058.jpg</RelativePath>
+      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509182913.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -110,7 +110,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-07 at 22.37.01_b994e193_20240509031058.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_4713bf72_20240509182913.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240510051944.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BisleriumPvtLtdBackendSample1</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BisleriumPvtLtdBackendSample1</BasePath>
+      <RelativePath>images/WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240510051944.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Image 2024-05-06 at 10.30.54_9579099e_20240510051944.jpg))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -50,6 +50,16 @@ namespace YourNamespace.Controllers
 
 
         [HttpPut]
+        [Route("updateNotificationCheckedTiming")]
+        [Authorize]
+        public IActionResult UpdateNotifcationCheckedTiming()
+        {
+            _userService.UpdateLastNotificationCheckedTime();
+            return Ok();
+        }
+
+
+        [HttpPut]
         [Route("updateUserDetails")]
         [Authorize]
         public async Task<IActionResult> UpdateUserDetails([FromBody] RegisterUserDto registerUserDto)
@@ -137,7 +147,7 @@ namespace YourNamespace.Controllers
                 await _userManager.AddToRoleAsync(user, defaultRoleName);
 
                 var token =await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                var emailVerificationLink = $"http://localhost:3006/verifyEmail?email={user.Email}&token={token}";
+                var emailVerificationLink = $"http://localhost:3007/verifyEmail?email={user.Email}&token={token}";
                 _emailService.sendEmail(
                     "Registration Email Verification",
                     user.Email,
@@ -222,8 +232,6 @@ namespace YourNamespace.Controllers
                     }
                     return StatusCode(StatusCodes.Status400BadRequest, ModelState);
                 }
-
-                System.Diagnostics.Debug.WriteLine("GHEEEEE");
                 return Ok("Email Confirmed Successfully");
             }
             return StatusCode(StatusCodes.Status400BadRequest, "Couldnot send link on your emal. Please try again!");
@@ -239,7 +247,7 @@ namespace YourNamespace.Controllers
             if (user != null)
             {
                 var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-                var forgotPasswordLink = $"http://localhost:3006/forgotPassword/verify-email?email={user.Email}&token={token}";
+                var forgotPasswordLink = $"http://localhost:3007/forgotPassword/verify-email?email={user.Email}&token={token}";
                 _emailService.sendEmail(
                     "Forgot Password Email Verification",
                     user.Email,

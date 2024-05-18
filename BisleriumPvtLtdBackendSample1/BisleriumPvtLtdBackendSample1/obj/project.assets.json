@@ -7532,11 +7532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1.csproj",
       "projectName": "BisleriumPvtLtdBackendSample1",
-      "projectPath": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-1\\Backend\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Documents\\MODULES\\Application Development\\2ndCws\\CW-2\\BisleriumPvtLtdBackendSample1\\BisleriumPvtLtdBackendSample1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

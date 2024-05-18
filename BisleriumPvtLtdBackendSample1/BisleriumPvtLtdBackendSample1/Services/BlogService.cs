@@ -172,10 +172,22 @@ namespace BisleriumPvtLtdBackendSample1.Services
         public BlogDetails DeleteBlog(Guid blogId)
         {
             string UserId = getCurrentUser();
-            Blog blog= _dbContext.Blogs.First(each => each.Id==blogId);
+            Blog blog = _dbContext.Blogs.First(each => each.Id == blogId);
 
             if (!blog.UserId.Equals(UserId)) return null;
 
+            var reactions = _dbContext.BlogReactions.Where(each => each.BlogId == blogId).ToList();
+
+            _dbContext.BlogReactions.RemoveRange(reactions);
+
+            var comments = _dbContext.Comments.Where(each => each.BlogId == blogId).ToList();
+            foreach (var comment in comments)
+            {
+                var commentReactions = _dbContext.CommentReactions.Where(each => each.CommentId == comment.Id).ToList();
+                _dbContext.CommentReactions.RemoveRange(commentReactions);
+            }
+
+            _dbContext.Comments.RemoveRange(comments);
             _dbContext.Remove(blog);
             _dbContext.SaveChanges();
 
